@@ -3,6 +3,13 @@ body{
     font-family: 'Roboto';
 }
 
+button{
+    cursor: pointer;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
 /* NAVBAR */
 
 .navbar h1{
@@ -124,4 +131,95 @@ body{
 .btnActive{
     font-weight: 700;
     background-color: #32B72F;
+}
+
+    /* POPUP */
+
+.popup{
+    top: calc(50%/2 - 0.5px);
+    position: fixed;
+    padding: 20px;
+    height: 40%;
+    background-color: #50D074;
+    width: 80%;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 9px;
+}
+.popup span{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.popup h4{
+    font-weight: 700;
+    font-size: 22px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.popupActions{
+    display: flex;
+    flex-direction: column;
+}
+.popupActions button:nth-child(1){
+    font-size: 22px;
+    font-weight: 700;
+    background-color: #FFFFFF;
+    color: #50D074;
+    border: 0;
+    border-radius: 100px;
+    height: 50px;
+}
+.popupActions button:nth-child(2){
+    color: #FFFFFF;
+    background-color: inherit;
+    border:0;
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.popupContainer{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.selectedPratoPrincipal p{
+    color: #FFFFFF;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.selectedBebida p{
+    color: #FFFFFF;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.selectedSobremesa p{
+    color: #FFFFFF;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.total p{
+    color: #FFFFFF;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+
+/* BLUR */
+.blur{
+    filter: blur(2px);
+}
+    
+/* BLUR */
+    
+.displayNone{
+    display: none;
 }
