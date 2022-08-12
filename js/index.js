@@ -15,6 +15,7 @@ function selectPratoPrincipal(num){
     let a = document.querySelector(".pratoPrincipal li:nth-child("+ num +") .prato");
     let nome;
     let valor;
+    let valorFinal;
 
     limpar("pratoPrincipal");
     a.setAttribute("class","prato active");
@@ -33,6 +34,7 @@ function selectBebida(num){
     let a = document.querySelector(".bebida li:nth-child("+ num +") .prato");
     let nome;
     let valor;
+    let valorFinal;
 
     limpar("bebida");
     a.setAttribute("class","prato active");
@@ -51,6 +53,7 @@ function selectSobremesa(num){
     let a = document.querySelector(".sobremesa li:nth-child("+ num +") .prato");
     let nome;
     let valor;
+    let valorFinal;
 
     limpar("sobremesa");
     a.setAttribute("class","prato active");
