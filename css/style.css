@@ -1,54 +1,54 @@
-body{
+body {
     box-sizing: border-box;
-    font-family: 'Roboto';
-}
-
-button{
+    font-family: "Roboto";
+  }
+  
+  button {
     cursor: pointer;
-}
-a{
+  }
+  a {
     color: inherit;
     text-decoration: none;
-}
-/* NAVBAR */
-
-.navbar h1{
+  }
+  /* NAVBAR */
+  
+  .navbar h1 {
     width: 300px;
     font-size: 44px;
-    font-family: 'Righteous';
-    color: #FFFFFF;
-}
-.navbar h2{
+    font-family: "Righteous";
+    color: #ffffff;
+  }
+  .navbar h2 {
     width: 300px;
     font-size: 18px;
-    color: #FFFFFF;
-}
-.navbar{
+    color: #ffffff;
+  }
+  .navbar {
     position: fixed;
     left: 0;
     top: 0;
     width: 98.5%;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    padding-left: 20px; 
+    padding-left: 20px;
     padding-top: 10px;
     padding-bottom: 20px;
-    background-color: #CF2B2B;
+    background-color: #cf2b2b;
     z-index: 1;
-}
-
-/* CONTEUDO */
-
-.conteudo{
-    background-color: #EEEEEE;
+  }
+  
+  /* CONTEUDO */
+  
+  .conteudo {
+    background-color: #eeeeee;
     display: flex;
     flex-direction: column;
     margin-top: 92px;
     margin-bottom: 92px;
-}
-
-/* PRATOS */
-
-.titulo {
+  }
+  
+  /* PRATOS */
+  
+  .titulo {
     top: 0;
     left: 0;
     position: sticky;
@@ -60,51 +60,61 @@ a{
     left: 20px;
     margin-bottom: 20px;
     color: #333333;
-}
-.selectPratos {
+  }
+  .selectPratos {
     position: relative;
     overflow-x: scroll;
-}
-.pratos ul{
+  }
+  .pratos ul {
     width: 100%;
     display: flex;
-}
-.prato{
+  }
+  .prato {
     box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
     border-radius: 9px;
     margin-left: 20px;
     padding: 20px;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     width: 172px;
-}
-.prato h3{
+  }
+  .prato h3 {
     margin-top: 10px;
-}
-.prato p{
+  }
+  .prato p {
     margin-top: 10px;
-}
-.prato{
+  }
+  .prato {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-.prato .descricao{
+  }
+  .prato .descricao {
     font-weight: 300;
     font-size: 15px;
-    color: #A6A6A6;
-}
-.prato .valor{
+    color: #a6a6a6;
+  }
+  .prato .valor {
     font-size: 16px;
     font-weight: 400;
     padding: 0;
-}
-.active{
-    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25), inset 0px 0px 0px 5px #32B72F;
-}
-
-/* FOOTER */
-.footer{
-    background-color: #FFFFFF;
+  }
+  .active {
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25),
+      inset 0px 0px 0px 5px #32b72f;
+  }
+  
+  ion-icon {
+    position: absolute;
+    color: #32b72f;
+    bottom: 15px;
+    right: 12px;
+    visibility: initial;
+  }
+  
+  /* FOOTER */
+  .footer {
+    background-color: #ffffff;
     height: 92px;
     display: flex;
     align-items: center;
@@ -113,10 +123,10 @@ a{
     left: 0;
     bottom: 0;
     width: 100%;
-}
-
-.btn{
-    border:0;
+  }
+  
+  .btn {
+    border: 0;
     font-size: 20px;
     font-weight: 400;
     display: flex;
@@ -125,101 +135,101 @@ a{
     width: 50%;
     height: 75%;
     color: white;
-    background-color: #CBCBCB;
+    background-color: #cbcbcb;
     border-radius: 50px;
-}
-.btnActive{
+  }
+  .btnActive {
     font-weight: 700;
-    background-color: #32B72F;
-}
-
-    /* POPUP */
-
-.popup{
-    top: calc(50%/2 - 0.5px);
+    background-color: #32b72f;
+  }
+  
+  /* POPUP */
+  
+  .popup {
+    top: calc(50% / 2 - 0.5px);
     position: fixed;
     padding: 20px;
     height: 40%;
-    background-color: #50D074;
+    background-color: #50d074;
     width: 80%;
     z-index: 3;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     border-radius: 9px;
-}
-.popup span{
+  }
+  .popup span {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-.popup h4{
+  }
+  .popup h4 {
     font-weight: 700;
     font-size: 22px;
-    color: #FFFFFF;
+    color: #ffffff;
     text-align: center;
-}
-.popupActions{
+  }
+  .popupActions {
     display: flex;
     flex-direction: column;
-}
-.popupActions button:nth-child(1){
+  }
+  .popupActions button:nth-child(1) {
     font-size: 22px;
     font-weight: 700;
-    background-color: #FFFFFF;
-    color: #50D074;
+    background-color: #ffffff;
+    color: #50d074;
     border: 0;
     border-radius: 100px;
     height: 50px;
-}
-.popupActions button:nth-child(2){
-    color: #FFFFFF;
+  }
+  .popupActions button:nth-child(2) {
+    color: #ffffff;
     background-color: inherit;
-    border:0;
+    border: 0;
     font-size: 22px;
     font-weight: 700;
     margin-top: 10px;
-}
-.popupContainer{
+  }
+  .popupContainer {
     position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
     height: 100%;
-}
-.selectedPratoPrincipal p{
-    color: #FFFFFF;
+  }
+  .selectedPratoPrincipal p {
+    color: #ffffff;
     font-size: 22px;
     font-weight: 400;
-}
-
-.selectedBebida p{
-    color: #FFFFFF;
+  }
+  
+  .selectedBebida p {
+    color: #ffffff;
     font-size: 22px;
     font-weight: 400;
-}
-
-.selectedSobremesa p{
-    color: #FFFFFF;
+  }
+  
+  .selectedSobremesa p {
+    color: #ffffff;
     font-size: 22px;
     font-weight: 400;
-}
-
-.total p{
-    color: #FFFFFF;
+  }
+  
+  .total p {
+    color: #ffffff;
     font-size: 22px;
     font-weight: 700;
-}
-
-
-/* BLUR */
-.blur{
+  }
+  
+  /* BLUR */
+  .blur {
     filter: blur(2px);
-}
-    
-/* BLUR */
-    
-.displayNone{
+  }
+  
+  /* DisplayNone */
+  
+  .displayNone {
     display: none;
-}
+  }
+  
