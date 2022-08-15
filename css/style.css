@@ -1,6 +1,7 @@
 body {
     box-sizing: border-box;
     font-family: "Roboto";
+    background-color: #eeeeee;
   }
   
   button {
@@ -43,7 +44,7 @@ body {
     display: flex;
     flex-direction: column;
     margin-top: 92px;
-    margin-bottom: 92px;
+    margin-bottom: 115px;
   }
   
   /* PRATOS */
